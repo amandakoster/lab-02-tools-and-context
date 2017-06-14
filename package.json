@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint app"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/amandakoster/lab-02-tools-and-context#readme",
   "devDependencies": {
-    "mocha": "^3.4.2"
+    "eslint": "^4.0.0",
+    "mocha": "^3.4.2",
+    "npm": "^5.0.3"
   }
 }
