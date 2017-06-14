@@ -12,6 +12,6 @@ fp.filter = (list, callback) => Array.prototype.filter.call(list, callback);
 
 fp.reduce = (list, args) => Array.prototype.reduce.call(list, args);
 
-fp.concat = (list, args) => Array.prototype.concat.call(list, args);
+fp.concat = (arr1, arr2) => Array.prototype.concat.call(arr1, arr2);
 
-fp.splice = (list, args) => Array.prototype.splice.call(list, args);
+fp.splice = (arr1, arr2) => Array.prototype.splice.apply(arr1, arr2);
